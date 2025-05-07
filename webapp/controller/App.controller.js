@@ -5,7 +5,7 @@ sap.ui.define([
     "use strict";
 
     return Controller.extend("ui5.walkthrough.controller.App", {
-        onShowHello() {
+        onPress() {
             MessageToast.show("Hello World");
         }
     });
