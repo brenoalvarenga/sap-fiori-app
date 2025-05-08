@@ -4,6 +4,6 @@ sap.ui.define([
 	"use strict";
 
 	XMLView.create({
-		viewName: "ui5.walkthrough.view.Dados"
+		viewName: "ui5.walkthrough.view.Documento"
 	}).then((oView) => oView.placeAt("content"));
 });

@@ -1,5 +1,5 @@
 <mvc:View
-	controllerName="ui5.walkthrough.controller.App"
+	controllerName="ui5.walkthrough.controller.Documento"
 	displayBlock="true"
 	xmlns="sap.m"
 	xmlns:core="sap.ui.core"
@@ -14,29 +14,30 @@
                     class="sapUiContentPadding">
 			
 				<HBox alignItems="Center">
-					<Label text="Tipo de FO" labelFor="tiposFo" width="100px" />
+					<Label text="Tipo de documento" labelFor="tiposDoc" width="150px" />
 
-					<Select id="tiposFo" width="200px" selectedKey="1">
+					<Select id="tiposDoc" width="200px" selectedKey="1">
 						<items>
-							<core:Item key="1" text="Comercial" />
-							<core:Item key="2" text="Logística" />
-							<core:Item key="3" text="Técnica" />
+							<core:Item key="1" text="Fatura" />
+							<core:Item key="2" text="ID" />
+							<core:Item key="3" text="Nota fiscal" />
+                            <core:Item key="4" text="Ordem de venda" />
 						</items>
 					</Select>
 				</HBox>
 
 				<HBox alignItems="Center" class="sapUiSmallMarginTop">
-					<Label text="Atendente" labelFor="inputDescricao" width="100px" />
-					<Input id="inputDescricao" width="200px" />
+					<Label text="Nº do documento" labelFor="numDoc" width="150px" />
+					<Input id="numDoc" width="200px" />
 				</HBox>
 
-				<HBox alignItems="Center">
+                <HBox alignItems="Center">
 					<Button
-						text="Criar FO"
+						text="Continuar"
 						press="onPress"
 						type="Emphasized"
 						class="sapUiSmallMargin"/>
-				</HBox>
+				</HBox>                
 			</VBox>
 		</Page>
 	</App>

@@ -1,5 +1,5 @@
 <mvc:View
-	controllerName="ui5.walkthrough.controller.App"
+	controllerName="ui5.walkthrough.controller.Dados"
 	displayBlock="true"
 	xmlns="sap.m"
 	xmlns:core="sap.ui.core"
