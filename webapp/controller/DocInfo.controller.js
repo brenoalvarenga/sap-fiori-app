@@ -4,7 +4,7 @@ sap.ui.define([
 ], (Controller, MessageToast) => {
     "use strict";
 
-    return Controller.extend("ui5.walkthrough.controller.Documento", {
+    return Controller.extend("ui5.walkthrough.controller.DocInfo", {
         onPress() {
             MessageToast.show("Hello World");
         }
