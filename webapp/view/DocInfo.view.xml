@@ -15,7 +15,7 @@
         alignItems="Center"
         class="fullScreenCentered sapUiContentPadding">
 
-        <ui-integration:Card manifest="manifest.json" width="90%" height="auto" />
+        <ui-integration:Card manifest="cards/cardPedidosFaturados.json" width="90%" height="auto" />
 
       </VBox>
 
