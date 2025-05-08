@@ -1,0 +1,55 @@
+<mvc:View
+    controllerName="ui5.walkthrough.controller.DocInfo"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc">
+    
+    <App>
+        <Page title="FO Management">
+            <VBox
+                width="100%"
+                fitContainer="true"
+                justifyContent="Center"
+                alignItems="Center"
+                class="sapUiContentPadding">
+
+                <Title text="Pedidos Faturados" level="H3"/>
+                
+                <Table id="table" inset="false" width="100%">
+                    <columns>
+                        <Column><Text text="Ordem de venda"/></Column>
+                        <Column><Text text="Fatura"/></Column>
+                        <Column><Text text="Item"/></Column>
+                        <Column><Text text="Nota"/></Column>
+                        <Column><Text text="Qtd faturada"/></Column>
+                        <Column><Text text="Unidade de medida"/></Column>
+                    </columns>
+                    <items>
+                        <ColumnListItem>
+                            <cells>
+                                <Text text="0006001568"/>
+                                <Text text="0093412189"/>
+                                <Text text="1"/>
+                                <Text text="109509"/>
+                                <Text text="10"/>
+                                <Text text="PCT"/>
+                            </cells>
+                        </ColumnListItem>
+                        <ColumnListItem>
+                            <cells>
+                                <Text text="0006001568"/>
+                                <Text text="0093412189"/>
+                                <Text text="2"/>
+                                <Text text="109509"/>
+                                <Text text="3"/>
+                                <Text text="PCT"/>
+                            </cells>
+                        </ColumnListItem>
+                    </items>
+                </Table>
+
+            </VBox>
+        </Page>
+    </App>
+</mvc:View>
